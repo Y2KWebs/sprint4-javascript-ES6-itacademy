@@ -1,3 +1,3 @@
-var epic = ["a", "long", "time", "ago", "in a", "galaxy", "far far", "away"];
-const reducer = (accumulator, currentValue) => accumulator + " " + currentValue;
-console.log(epic.reduce(reducer));
+let str = "abcde";
+let reverse = (str) => [...str].reverse().reduce((a, c) => a + c);
+console.log(reverse);
