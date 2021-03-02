@@ -1,20 +1,12 @@
-var tasks = [
-  {
-    name: "Start React web",
-    duration: 120,
-  },
-  {
-    name: "Work out",
-    duration: 60,
-  },
-  {
-    name: "Procrastinate on facebook",
-    duration: 240,
-  },
-];
-var res = [];
-tasks.forEach((e) => res.push(e.name));
-console.log(res);
+function tabla(a, b) {
+  var res = "";
+  for (i = 1; i <= b; i++) {
+    res += `${a} X ${i} = ${a * i}
+`;
+  }
+  return res;
+}
 
-const res2 = tasks.map((x) => x.name);
-console.log(res2);
+var a = prompt("favor intoduzca valor 1");
+var b = prompt("favor intoduzca valor 2");
+console.log(tabla(a, b));
