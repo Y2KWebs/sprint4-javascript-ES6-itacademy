@@ -1,12 +1,16 @@
-function tabla(a, b) {
-  var res = "";
-  for (i = 1; i <= b; i++) {
-    res += `${a} X ${i} = ${a * i}
-`;
-  }
-  return res;
-}
+function tabla() {
+  var a = document.getElementById("a");
+  var b = parseInt(document.getElementById("b").value);
 
-var a = prompt("favor intoduzca valor 1");
-var b = prompt("favor intoduzca valor 2");
-console.log(tabla(a, b));
+  if (parseInt(a.value) < 0) {
+    document.getElementById("errorb").textContent = "Es campo es obligatorio";
+    console.log("dssdf" + a.classList);
+  } else {
+    let c = parseInt(a.value);
+    var res = "<table border=1>";
+    for (i = 1; i <= b; i++) {
+      res += `<tr><td>${c} X ${i} = ${c * i}</td></tr>`;
+    }
+    document.getElementById("tabla").innerHTML = res + "</table>";
+  }
+}
