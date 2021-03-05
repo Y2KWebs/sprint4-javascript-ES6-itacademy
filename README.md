@@ -30,9 +30,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
-  
-    <img src="https://www.mkwd.net/wp-content/uploads/2019/11/ES6.jpg" alt="Logo" width="80" height="80">
+<p align="center"><img src="https://www.mkwd.net/wp-content/uploads/2019/11/ES6.jpg" alt="Logo" width="80" height="80">
 
 
   <h3 align="center">ES6</h3>
