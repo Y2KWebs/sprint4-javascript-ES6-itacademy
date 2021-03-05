@@ -22,7 +22,7 @@
 -->
 
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
+
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
@@ -32,7 +32,7 @@
 <br />
 <p align="center">
   
-    <img src="https://www.mkwd.net/wp-content/uploads/2019/11/ES6.jpg" alt="Logo" width="80" height="80">
+    <img src="https://www.mkwd.net/wp-content/uploads/2019/11/ES6.jpg" alt="Logo" width="80" height="80"></img>
 
 
   <h3 align="center">ES6</h3>
